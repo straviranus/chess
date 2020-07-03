@@ -1,0 +1,56 @@
+body{
+    position: absolute;
+    background-color: black;
+    
+}
+#contenedor{
+
+width: 500px;
+height: 500px;
+margin-left: 450px;
+margin-top: 50px;
+background-image: url(../chess/imagenes/board.png);
+display: none;
+
+
+}
+#pieza{
+    width: 60px; 
+    height: 60px; 
+    margin-left: 250px;
+    margin-right: auto;
+    margin-top: 430px;
+    position: relative;
+    background-size: 100% 100%;
+    background-image: url(../chess/imagenes/rey.png);
+    object-fit: cover;
+    object-position: center;
+    
+            }
+ #presentacion{
+     background-color:white;
+     width: 412px;
+     height: 496px;
+     margin-left: 500px;
+    margin-top: 60px;
+    background-image: url(../chess/imagenes/presentacion.png);
+    object-fit: cover;
+    object-position: center;
+    background-size: 100% 100%;
+ }
+ #boton{
+     width: 195px;
+     height: 52px;
+     margin-top: 300px;
+     margin-left: 110px;
+     background-image: url(../chess/imagenes/boton.png);
+     object-fit: cover;
+     object-position: center;
+     background-size: 100% 100%;
+ }
+ #danubio{
+     display: none;
+ }
+ #aplausos{
+    display: none;
+}
